@@ -16,8 +16,8 @@ public class Paragraph extends UserDateAudit {
     private Long id;
 
     @Lob
-    @Basic(fetch = FetchType.LAZY)
-    @Column(nullable = false, columnDefinition = "LONGTEXT", length = 2147483647)
+    //@Basic(fetch = FetchType.LAZY)
+    @Column(nullable = false/*, columnDefinition = "LONGTEXT", length = 2147483647*/)
     private String content;
 
     private String imageUrl;

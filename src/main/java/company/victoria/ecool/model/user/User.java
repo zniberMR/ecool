@@ -34,8 +34,8 @@ public class User extends DateAudit {
     private String email;
 
     @Lob
-    @Basic(fetch = FetchType.LAZY)
-    @Column(columnDefinition = "LONGTEXT", length = 2147483647)
+    //@Basic(fetch = FetchType.LAZY)
+    //@Column(columnDefinition = "LONGTEXT", length = 2147483647)
     private String about;
 
     private String country;
