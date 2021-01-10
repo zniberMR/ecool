@@ -21,3 +21,4 @@ public interface ParagraphRepository  extends JpaRepository<Paragraph, Long> {
     List<Paragraph> search(@Param("keyword") String keyword);
 
 }
+
