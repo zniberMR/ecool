@@ -2,12 +2,12 @@ server:
   port: 8088
 
 spring:
-    datasource:
+    #datasource:
         #url: jdbc:mysql://localhost:3306/ecool?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
-        url: jdbc:postgresql://ec2-54-156-73-147.compute-1.amazonaws.com:5432/de9uhkrgu0qg0m
+        #url: jdbc:postgresql://ec2-54-156-73-147.compute-1.amazonaws.com:5432/de9uhkrgu0qg0m
         #url: jdbc:postgresql://localhost:5432/db_ecool
-        username: dfgrudkmquxxfc
-        password: e2f0769022a5527b9b81b4ddf95a147777f87185a8bb89d39d49d4a81b4b6ae1
+        #username: dfgrudkmquxxfc
+        #password: e2f0769022a5527b9b81b4ddf95a147777f87185a8bb89d39d49d4a81b4b6ae1
         #username: zniber
         #password: zniber
 
